@@ -1,4 +1,4 @@
-{
+/*NdegwaCodes*/{
 
   "scripts": {
     "init": "bash ./init.sh",

@@ -1,3 +1,5 @@
+/*NdegwaCodes*/
+
 echo "INIT DB IMAGE"
 docker-compose up -d || exit 1
 echo "COPY DB DUMP TO IMAGE"

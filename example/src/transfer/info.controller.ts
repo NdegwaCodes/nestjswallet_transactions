@@ -1,4 +1,4 @@
-
+/*NdegwaCodes*/
 import { Controller, Get } from '@nestjs/common';
 import { DataSource } from 'typeorm';
 import { InfoService } from './info.service';

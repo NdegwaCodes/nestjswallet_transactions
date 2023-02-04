@@ -2,15 +2,7 @@
 import { ApiModelProperty } from '@nestjs/swagger/dist/decorators/api-model-property.decorator';
 
 export class TransferParamsDTO {
-  // constructor();
-  // constructor(params: TransferParamsDTO);
-  //
-  // constructor(params?: TransferParamsDTO) {
-  //   this.sum = params?.sum ?? 0;
-  //   this.userIdFrom = params?.userIdFrom ?? 0;
-  //   this.userIdTo = params?.userIdTo ?? 0;
-  //   this.withError = params?.withError ?? false;
-  // }
+
 
   @ApiModelProperty({
     default: 200,

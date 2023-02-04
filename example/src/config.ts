@@ -1,3 +1,4 @@
+/*NdegwaCodes*/
 import { config, parse } from 'dotenv';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';

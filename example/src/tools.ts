@@ -1,3 +1,5 @@
+/*NdegwaCodes*/
+
 export type Void = undefined | null;
 
 export type Maybe<T> = T | Void;

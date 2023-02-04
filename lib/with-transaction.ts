@@ -1,3 +1,5 @@
+NdegwaCodes
+
 import 'reflect-metadata';
 import { Injectable } from '@nestjs/common';
 import { EntityManager, Repository } from 'typeorm';

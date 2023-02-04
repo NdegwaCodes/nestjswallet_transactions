@@ -1,3 +1,5 @@
+/*NdegwaCodes*/
+
 import 'reflect-metadata';
 import { EntityManager } from 'typeorm';
 import { ModuleRef } from '@nestjs/core';

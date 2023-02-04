@@ -1,3 +1,4 @@
+
 import { HttpException, Injectable } from '@nestjs/common';
 import { isNotDefined } from '../tools';
 import { Purse } from './model/purse.model';

@@ -8,10 +8,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 @Injectable()
 export class PurseService {
   constructor(
-    /**
-     * For now this is the only way to inject repositories into services without additional complex logic
-     * which needed for the new custom repository api from the typeorm creators
-     */
+    
     @InjectRepository(Purse)
     private readonly purePurseRepository: Repository<Purse>,
   ) {

@@ -1,0 +1,68 @@
+{
+  "name": "nest-transact",
+  "version": "9.1.0",
+  "description": "This package give you a simplest possibility to use transactions with Nestjs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf ./dist && npm i && npm-install-peers && tsc --project tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NdegwaCodes/nestjswallet_transactions.git"
+  },
+  "keywords": [
+    "nest",
+    "nestjs",
+    "transactions",
+    "transact",
+    "sql",
+    "postgresql",
+    "mysql",
+    "mariadb",
+    "typeorm"
+  ],
+  "author": "please complete the following project in Nestjs.
+  This is a backend quiz, an existing frontend will consume your endpoints
+  The objective of this assignment, is to create a simple money tracker for users. Money can be tracked in multiple wallets (accounts), for example, if a user has multiple businesses. When a user's profile is pulled up, it should show a overall balance and all their wallets (accounts) and their respective balances. Drilling down into each wallet (account), should show the detailed transactions of that wallet (account).
+  User Flow:
+  
+  
+  A user signs up (no sign in required. Disregard authentication).
+  
+  
+  A user can create wallets.
+  
+  
+  A user can add expenses or incomes to a wallet.
+  
+  
+  A user can view their profile with the summary of wallets and balances. Show overall balance of all wallets and balance of each wallet.
+  
+  
+  A user can drill into each wallet to see balance and transactions.@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4",
+    "rimraf": "^3.0.2",
+    "@types/validator": "^13.7.5",
+    "npm-install-peers": "^1.2.2",
+    "@nestjs/common": "^9.0.8",
+    "@nestjs/core": "^9.0.8",
+    "typeorm": "^0.3.7",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.6"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^9.0.8",
+    "@nestjs/core": "^9.0.8",
+    "typeorm": "^0.3.7",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.6"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ]
+}
